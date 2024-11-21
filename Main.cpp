@@ -4,9 +4,8 @@ void Log(const char* message);
 
 int main()
 {
-	bool variable = false
-		;
+	bool variable = false;
 
-	std::cout << variable << std::endl;
+	std::cout << sizeof(bool) << std::endl;
 	std::cin.get();
 }
